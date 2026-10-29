@@ -141,16 +141,19 @@
             margin: auto 0;
         }
 
-        /* New Highlight Text Style */
+        /* Highlight Title with Locanto Colors */
         .highlight-title {
-            font-size: 22px;
+            font-size: 24px;
             font-weight: 900;
-            color: #ff1744;
             text-transform: uppercase;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             letter-spacing: 1px;
             text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95);
         }
+
+        .free-col { color: #0056b3; }    /* Deep Blue */
+        .always-col { color: #ff8500; }  /* Orange */
+        .fake-col { color: #cc3700; }    /* Deep Orange */
 
         .text-content {
             font-size: 15px;
@@ -290,9 +293,13 @@
 
             <!-- Main Content Area -->
             <div class="main-content-area">
+                <!-- Permanent Highlight Title with Locanto Colors -->
+                <div class="highlight-title">
+                    <span class="free-col">FREE</span> <span class="always-col">ALWAYS</span> <span class="fake-col">FAKE</span>
+                </div>
+
                 <!-- Part 1 Text -->
                 <div id="part1-text">
-                    <div class="highlight-title">FREE ALWAYS FAKE</div>
                     <p class="text-content">
                         We realize many fake Locanto profiles ask for deposits and never meet their clients. That is why we published this premium platform exclusively for our loyal users.
                     </p>
