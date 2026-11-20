@@ -98,7 +98,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.55);
+            background: rgba(0, 0, 0, 0.58);
             z-index: 2;
         }
 
@@ -137,7 +137,7 @@
             z-index: 3;
             width: 100%;
             text-align: center;
-            padding: 0 10px;
+            padding: 0 8px;
             margin: auto 0;
         }
 
@@ -146,7 +146,7 @@
             font-size: 24px;
             font-weight: 900;
             text-transform: uppercase;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
             letter-spacing: 1px;
             text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95);
         }
@@ -156,11 +156,52 @@
         .fake-col { color: #cc3700; }    /* Deep Orange */
 
         .text-content {
-            font-size: 15px;
-            line-height: 1.45;
+            font-size: 14.5px;
+            line-height: 1.42;
             color: #ffffff;
             text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.95);
             font-weight: 500;
+        }
+
+        /* 3 Attractive Bullet Points Styling */
+        .feature-points {
+            list-style: none;
+            margin-top: 16px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+            width: 100%;
+        }
+
+        .feature-points li {
+            background: rgba(0, 0, 0, 0.52);
+            border-left: 3.5px solid #00e676;
+            padding: 9px 12px;
+            border-radius: 0 10px 10px 0;
+            font-size: 13.5px;
+            line-height: 1.38;
+            color: #f5f5f5;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(2px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+        }
+
+        .feature-points li:nth-child(2) {
+            border-left-color: #ff0055;
+        }
+
+        .feature-points li:nth-child(3) {
+            border-left-color: #ff8500;
+        }
+
+        .point-title {
+            color: #ffea00;
+            font-weight: 800;
+            display: block;
+            font-size: 14px;
+            margin-bottom: 2px;
+            letter-spacing: 0.3px;
         }
 
         /* Bottom Section: Buttons & Footer */
@@ -278,11 +319,26 @@
                     </p>
                 </div>
 
-                <!-- Part 2 Text -->
+                <!-- Part 2 Text + 3 Attractive Points -->
                 <div id="part2-text" style="display: none;">
                     <p class="text-content">
                         Try our premium website today. All verified Locanto girls are already listed here. They are looking for secret, genuine fun and casual hookups — not money.
                     </p>
+
+                    <ul class="feature-points">
+                        <li>
+                            <span class="point-title">🔥 1,000+ Active Locanto Women</span>
+                            Real, verified profiles online right now and ready to connect.
+                        </li>
+                        <li>
+                            <span class="point-title">💋 Message &amp; Ask for Wild Fun</span>
+                            Don't be shy — tell them what you crave, because they want it just as bad as you do.
+                        </li>
+                        <li>
+                            <span class="point-title">❤️ Respect Every Woman</span>
+                            Treat our ladies with respect and enjoy unforgettable, no-strings-attached passion.
+                        </li>
+                    </ul>
                 </div>
             </div>
 
